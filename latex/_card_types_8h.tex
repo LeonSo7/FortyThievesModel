@@ -1,0 +1,60 @@
+\hypertarget{_card_types_8h}{}\section{include/\+Card\+Types.h File Reference}
+\label{_card_types_8h}\index{include/\+Card\+Types.\+h@{include/\+Card\+Types.\+h}}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{struct_card_t}{CardT}
+\begin{DoxyCompactList}\small\item\em Describes a card. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_card_types_8h_a19a42fb31ce3a08d707be069709be93e}\label{_card_types_8h_a19a42fb31ce3a08d707be069709be93e}} 
+\#define \hyperlink{_card_types_8h_a19a42fb31ce3a08d707be069709be93e}{A\+CE}~1
+\begin{DoxyCompactList}\small\item\em RankT for an Ace. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{_card_types_8h_aa941833decb7feaf364825bca39896b7}\label{_card_types_8h_aa941833decb7feaf364825bca39896b7}} 
+\#define \hyperlink{_card_types_8h_aa941833decb7feaf364825bca39896b7}{J\+A\+CK}~11
+\begin{DoxyCompactList}\small\item\em RankT for an Jack. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{_card_types_8h_a64648880b0877cbf45dd176839aff27e}\label{_card_types_8h_a64648880b0877cbf45dd176839aff27e}} 
+\#define \hyperlink{_card_types_8h_a64648880b0877cbf45dd176839aff27e}{Q\+U\+E\+EN}~12
+\begin{DoxyCompactList}\small\item\em RankT for a Queen. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{_card_types_8h_a4053d9a782c54549f5faf06c3c95262b}\label{_card_types_8h_a4053d9a782c54549f5faf06c3c95262b}} 
+\#define \hyperlink{_card_types_8h_a4053d9a782c54549f5faf06c3c95262b}{K\+I\+NG}~13
+\begin{DoxyCompactList}\small\item\em RankT for a King. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{_card_types_8h_af54b23fbce45c80394fecbe47e330567}\label{_card_types_8h_af54b23fbce45c80394fecbe47e330567}} 
+\#define \hyperlink{_card_types_8h_af54b23fbce45c80394fecbe47e330567}{T\+O\+T\+A\+L\+\_\+\+C\+A\+R\+DS}~104
+\begin{DoxyCompactList}\small\item\em Total number of cards. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_card_types_8h_a56638ee9d162e8cce3a15f92d2023d6e}\label{_card_types_8h_a56638ee9d162e8cce3a15f92d2023d6e}} 
+typedef unsigned int \hyperlink{_card_types_8h_a56638ee9d162e8cce3a15f92d2023d6e}{nat}
+\begin{DoxyCompactList}\small\item\em Describes a natural number. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{_card_types_8h_aa7b61ab74252d345d621b846db6238f1}\label{_card_types_8h_aa7b61ab74252d345d621b846db6238f1}} 
+typedef unsigned short int \hyperlink{_card_types_8h_aa7b61ab74252d345d621b846db6238f1}{RankT}
+\begin{DoxyCompactList}\small\item\em Describes the rank of a card. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_card_types_8h_aa77f81f8d4c8aa57046a50ca32d6b7b4}\label{_card_types_8h_aa77f81f8d4c8aa57046a50ca32d6b7b4}} 
+enum \hyperlink{_card_types_8h_aa77f81f8d4c8aa57046a50ca32d6b7b4}{CategoryT} \{ {\bfseries Tableau}, 
+{\bfseries Foundation}, 
+{\bfseries Deck}, 
+{\bfseries Waste}
+ \}\begin{DoxyCompactList}\small\item\em Describes the category of a stack of cards. \end{DoxyCompactList}
+\item 
+\mbox{\Hypertarget{_card_types_8h_a693d1a7b7ef1b91ead9c7dfc49830565}\label{_card_types_8h_a693d1a7b7ef1b91ead9c7dfc49830565}} 
+enum \hyperlink{_card_types_8h_a693d1a7b7ef1b91ead9c7dfc49830565}{SuitT} \{ {\bfseries Heart}, 
+{\bfseries Diamond}, 
+{\bfseries Club}, 
+{\bfseries Spade}
+ \}\begin{DoxyCompactList}\small\item\em Describes the suit of a card. \end{DoxyCompactList}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Leon So $\vert$ macid\+: sol4 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2019-\/03-\/26 
+\end{DoxyDate}

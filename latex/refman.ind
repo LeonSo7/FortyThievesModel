@@ -1,0 +1,88 @@
+\begin{theindex}
+
+  \item {BoardT}, \hyperpage{5}
+    \subitem {get\+\_\+deck}, \hyperpage{6}
+    \subitem {get\+\_\+foundation}, \hyperpage{6}
+    \subitem {get\+\_\+tab}, \hyperpage{6}
+    \subitem {get\+\_\+waste}, \hyperpage{7}
+    \subitem {is\+\_\+valid\+\_\+deck\+\_\+mv}, \hyperpage{7}
+    \subitem {is\+\_\+valid\+\_\+tab\+\_\+mv}, \hyperpage{7}
+    \subitem {is\+\_\+valid\+\_\+waste\+\_\+mv}, \hyperpage{7}
+    \subitem {is\+\_\+win\+\_\+state}, \hyperpage{8}
+    \subitem {tab\+\_\+mv}, \hyperpage{8}
+    \subitem {valid\+\_\+mv\+\_\+exists}, \hyperpage{8}
+    \subitem {waste\+\_\+mv}, \hyperpage{9}
+
+  \indexspace
+
+  \item {CardT}, \hyperpage{9}
+
+  \indexspace
+
+  \item {Game\+Board.\+h}
+    \subitem {Seq\+Crd\+StckT}, \hyperpage{15}
+  \item {get\+\_\+deck}
+    \subitem {BoardT}, \hyperpage{6}
+  \item {get\+\_\+foundation}
+    \subitem {BoardT}, \hyperpage{6}
+  \item {get\+\_\+tab}
+    \subitem {BoardT}, \hyperpage{6}
+  \item {get\+\_\+waste}
+    \subitem {BoardT}, \hyperpage{7}
+
+  \indexspace
+
+  \item {include/\+Card\+Stack.\+h}, \hyperpage{13}
+  \item {include/\+Card\+Types.\+h}, \hyperpage{13}
+  \item {include/\+Game\+Board.\+h}, \hyperpage{14}
+  \item {include/\+Stack.\+h}, \hyperpage{15}
+  \item {is\+\_\+valid\+\_\+deck\+\_\+mv}
+    \subitem {BoardT}, \hyperpage{7}
+  \item {is\+\_\+valid\+\_\+tab\+\_\+mv}
+    \subitem {BoardT}, \hyperpage{7}
+  \item {is\+\_\+valid\+\_\+waste\+\_\+mv}
+    \subitem {BoardT}, \hyperpage{7}
+  \item {is\+\_\+win\+\_\+state}
+    \subitem {BoardT}, \hyperpage{8}
+
+  \indexspace
+
+  \item {pop}
+    \subitem {Stack}, \hyperpage{10}
+  \item {push}
+    \subitem {Stack}, \hyperpage{10}
+
+  \indexspace
+
+  \item {Seq\+Crd\+StckT}
+    \subitem {Game\+Board.\+h}, \hyperpage{15}
+  \item {size}
+    \subitem {Stack}, \hyperpage{11}
+  \item {Stack}
+    \subitem {pop}, \hyperpage{10}
+    \subitem {push}, \hyperpage{10}
+    \subitem {size}, \hyperpage{11}
+    \subitem {to\+Seq}, \hyperpage{11}
+    \subitem {top}, \hyperpage{11}
+  \item {Stack$<$ T $>$}, \hyperpage{10}
+
+  \indexspace
+
+  \item {tab\+\_\+mv}
+    \subitem {BoardT}, \hyperpage{8}
+  \item {to\+Seq}
+    \subitem {Stack}, \hyperpage{11}
+  \item {top}
+    \subitem {Stack}, \hyperpage{11}
+
+  \indexspace
+
+  \item {valid\+\_\+mv\+\_\+exists}
+    \subitem {BoardT}, \hyperpage{8}
+
+  \indexspace
+
+  \item {waste\+\_\+mv}
+    \subitem {BoardT}, \hyperpage{9}
+
+\end{theindex}

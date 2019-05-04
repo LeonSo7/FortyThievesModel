@@ -1,0 +1,119 @@
+\hypertarget{class_stack}{}\section{Stack$<$ T $>$ Class Template Reference}
+\label{class_stack}\index{Stack$<$ T $>$@{Stack$<$ T $>$}}
+
+
+\hyperlink{class_stack}{Stack} abstract data type.  
+
+
+
+
+{\ttfamily \#include $<$Stack.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_stack_aefee698059467258bbd79045aca62a63}\label{class_stack_aefee698059467258bbd79045aca62a63}} 
+\hyperlink{class_stack_aefee698059467258bbd79045aca62a63}{Stack} ()
+\begin{DoxyCompactList}\small\item\em Empty constructor for a stack. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_stack_acf1a315995090bf9cf957ac84175c82c}\label{class_stack_acf1a315995090bf9cf957ac84175c82c}} 
+\hyperlink{class_stack_acf1a315995090bf9cf957ac84175c82c}{Stack} (std\+::vector$<$ T $>$ s)
+\begin{DoxyCompactList}\small\item\em Empty constructor for a stack. \end{DoxyCompactList}\item 
+\hyperlink{class_stack}{Stack} \hyperlink{class_stack_a4c6a61ccc7c974b889240299599be078}{push} (T e)
+\begin{DoxyCompactList}\small\item\em Mutator -\/ push element into stack. \end{DoxyCompactList}\item 
+\hyperlink{class_stack}{Stack} \hyperlink{class_stack_a0682e08ce3a10b12697dfd828a83268f}{pop} ()
+\begin{DoxyCompactList}\small\item\em Mutator -\/ pop element off stack. \end{DoxyCompactList}\item 
+T \hyperlink{class_stack_a1931814ad68db1eaedabdb37fa0fe494}{top} () const
+\begin{DoxyCompactList}\small\item\em Accessor -\/ gets top of stack. \end{DoxyCompactList}\item 
+\hyperlink{_card_types_8h_a56638ee9d162e8cce3a15f92d2023d6e}{nat} \hyperlink{class_stack_ab9892502a02b845f92ef0c631270f1df}{size} () const
+\begin{DoxyCompactList}\small\item\em Gets size of stack. \end{DoxyCompactList}\item 
+std\+::vector$<$ T $>$ \hyperlink{class_stack_af96a1f465756ae90dec75ae76e1d301d}{to\+Seq} () const
+\begin{DoxyCompactList}\small\item\em Accessor -\/ get stack in form of sequence. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$class T$>$\newline
+class Stack$<$ T $>$}
+
+\hyperlink{class_stack}{Stack} abstract data type. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_stack_a0682e08ce3a10b12697dfd828a83268f}\label{class_stack_a0682e08ce3a10b12697dfd828a83268f}} 
+\index{Stack@{Stack}!pop@{pop}}
+\index{pop@{pop}!Stack@{Stack}}
+\subsubsection{\texorpdfstring{pop()}{pop()}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\hyperlink{class_stack}{Stack} \hyperlink{class_stack}{Stack}$<$ T $>$\+::pop (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Mutator -\/ pop element off stack. 
+
+\begin{DoxyReturn}{Returns}
+Ouput a new stack 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_stack_a4c6a61ccc7c974b889240299599be078}\label{class_stack_a4c6a61ccc7c974b889240299599be078}} 
+\index{Stack@{Stack}!push@{push}}
+\index{push@{push}!Stack@{Stack}}
+\subsubsection{\texorpdfstring{push()}{push()}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\hyperlink{class_stack}{Stack} \hyperlink{class_stack}{Stack}$<$ T $>$\+::push (\begin{DoxyParamCaption}\item[{T}]{e }\end{DoxyParamCaption})}
+
+
+
+Mutator -\/ push element into stack. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & -\/ Element to be pushed of type T \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Ouput a new stack 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_stack_ab9892502a02b845f92ef0c631270f1df}\label{class_stack_ab9892502a02b845f92ef0c631270f1df}} 
+\index{Stack@{Stack}!size@{size}}
+\index{size@{size}!Stack@{Stack}}
+\subsubsection{\texorpdfstring{size()}{size()}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+\hyperlink{_card_types_8h_a56638ee9d162e8cce3a15f92d2023d6e}{nat} \hyperlink{class_stack}{Stack}$<$ T $>$\+::size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets size of stack. 
+
+\begin{DoxyReturn}{Returns}
+Ouput size of stack 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_stack_a1931814ad68db1eaedabdb37fa0fe494}\label{class_stack_a1931814ad68db1eaedabdb37fa0fe494}} 
+\index{Stack@{Stack}!top@{top}}
+\index{top@{top}!Stack@{Stack}}
+\subsubsection{\texorpdfstring{top()}{top()}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+T \hyperlink{class_stack}{Stack}$<$ T $>$\+::top (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accessor -\/ gets top of stack. 
+
+\begin{DoxyReturn}{Returns}
+Ouput element at top of stack 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_stack_af96a1f465756ae90dec75ae76e1d301d}\label{class_stack_af96a1f465756ae90dec75ae76e1d301d}} 
+\index{Stack@{Stack}!to\+Seq@{to\+Seq}}
+\index{to\+Seq@{to\+Seq}!Stack@{Stack}}
+\subsubsection{\texorpdfstring{to\+Seq()}{toSeq()}}
+{\footnotesize\ttfamily template$<$class T$>$ \\
+std\+::vector$<$T$>$ \hyperlink{class_stack}{Stack}$<$ T $>$\+::to\+Seq (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accessor -\/ get stack in form of sequence. 
+
+\begin{DoxyReturn}{Returns}
+\hyperlink{class_stack}{Stack} in form of sequence 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/\hyperlink{_stack_8h}{Stack.\+h}\end{DoxyCompactItemize}
